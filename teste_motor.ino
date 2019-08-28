@@ -25,8 +25,8 @@ void setup()
 void loop()
 {
   if (Serial.available()) {
-    motorDireito.velocidade(vel);
-    motorEsquerdo.velocidade(vel);
+    //motorDireito.velocidade(vel);
+    //motorEsquerdo.velocidade(vel);
     char c = Serial.read();
     if (c == 'w') {
       //motorDireito.horario();
