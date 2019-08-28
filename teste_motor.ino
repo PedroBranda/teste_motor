@@ -1,9 +1,9 @@
 #include <DC_Motor.h>
 
-#define AI2 16        //D0
-#define AI1  5         //D1 
-#define BI1  4         //D2
-#define BI2  0         //D3
+#define AI2 16   //D0
+#define AI1  5   //D1 
+#define BI1  4   //D2
+#define BI2  0   //D3
 #define PWM_A 14 //D5
 #define PWM_B 12 //D6
 
